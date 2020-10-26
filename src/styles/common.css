@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+input,
+button {
+  border: none;
+  outline: none;
+}
+html,
+body {
+  font-size: 10px !important;
+}
+@media screen and (min-width: 375px) {
+  html,
+  body {
+    font-size: 10px !important;
+  }
+}
+@media screen and (min-width: 414px) {
+  html,
+  body {
+    /* 计算方式 10*414/375 */
+    font-size: 11.04px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  html,
+  body {
+    /* 计算方式 10*768/375 */
+    font-size: 20.48px !important;
+  }
+}
